@@ -1,0 +1,90 @@
+body {
+    background-color: #ffebcd;
+    margin: 0;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+}
+
+a:hover {
+    background-color: white;
+}
+
+img {
+    max-width: 600px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    width: 150px;
+}
+
+.header {
+    background-color: #dd6752;
+}
+
+.dough {
+    background-color: #ffa77b;
+}
+
+.galerry {
+    background-color: #dd6752;
+}
+
+.header-flex,
+.hero-flex,
+.filling-flex,
+.dough-flex,
+.galerry-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-img {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hero-img {
+    margin-right: 50px;
+}
+
+.filling-img {
+    margin-right: 50px;
+}
+
+.dough-img {
+    margin-right: 50px;
+}
+
+.Photo1,
+.Photo2,
+.Photo3{
+    margin-bottom: 20px;
+}
